@@ -5,5 +5,5 @@
 allowBuilds:
   esbuild: true
   workerd: true
-packages
+packages:
   - "."
