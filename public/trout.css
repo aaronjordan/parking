@@ -3,6 +3,8 @@ html {
     padding: 0;
     height: 100%;
     overflow: hidden;
+    background: #444696;
+    color-scheme: dark;
 }
 
 body {
@@ -16,6 +18,7 @@ body {
     font-style: normal;
     font-size: min(2rem, 4vw);
     color: #e3e3e3;
+    background: #444696;
 }
 
 img {
