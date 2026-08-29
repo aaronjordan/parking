@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: min(2rem, 4vw);
+    color: #e3e3e3;
+}
+
+img {
+    height: 40vh;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+p {
+    transform: rotate(-6deg);
+}

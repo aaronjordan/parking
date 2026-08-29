@@ -3,10 +3,35 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Hello, World!</title>
+		<link rel="stylesheet" href="/trout.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">		<title>Hello, World!</title>
 	</head>
 	<body>
-		<h1 id="heading">Hello, World!</h1>
-		<p>This page comes from a static asset stored at `public/index.html` as configured in `wrangler.jsonc`.</p>
+		<main>
+			<img src="/trout-l.png" alt="A confused-looking dog named Trout with three legs wearing a rainbow bandana."/>
+			<p>Well, I'm not sure how we got here,<br />but at least there's a trout.</p>
+		</main>
+	
+		<script src="three.r134.min.js"></script>
+		<script src="vanta.fog.min.js"></script>
+		<script>
+			VANTA.FOG({
+				el: "body",
+				mouseControls: true,
+				touchControls: true,
+				gyroControls: false,
+				minHeight: 200.00,
+				minWidth: 200.00,
+				highlightColor: 0x7b87c0,
+				midtoneColor: 0x2c7e98,
+				lowlightColor: 0x432caa,
+				baseColor: 0x444696,
+				blurFactor: 0.37,
+				speed: 0.70,
+				zoom: 0.80
+			})
+		</script>
 	</body>
 </html>
